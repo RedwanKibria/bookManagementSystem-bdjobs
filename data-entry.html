@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Entry Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Data Entry Form</h1>
+  <form id="data-entry-form">
+    <div>
+      <label for="book-name">Name of the Book:</label>
+      <input type="text" id="book-name" name="book-name" required>
+    </div>
+    <div>
+      <label for="publisher">Name of the Publisher:</label>
+      <input type="text" id="publisher" name="publisher" required>
+    </div>
+    <div>
+      <label for="publisher-age">Age of the Publisher:</label>
+      <input type="number" id="publisher-age" name="publisher-age" required>
+    </div>
+    <div>
+      <label for="page-count">Page Number:</label>
+      <input type="number" id="page-count" name="page-count" required>
+    </div>
+    <div>
+      <label for="publish-date">Publish Date:</label>
+      <input type="date" id="publish-date" name="publish-date" required>
+    </div>
+    <div>
+      <label for="book-type">Book Type:</label>
+      <select id="book-type" name="book-type" required>
+        <option value="sci-fi">Sci-Fi</option>
+        <option value="drama">Drama</option>
+        <option value="novel">Novel</option>
+      </select>
+    </div>
+    <button type="submit">Submit</button>
+    <a href="report.html" class="report-link">Report</a>
+  </form>
+  
+  <script src="app.js"></script>
+</body>
+</html>
